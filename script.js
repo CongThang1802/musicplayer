@@ -35,10 +35,34 @@ const app = {
       image: "./img/nevada.jpg",
     },
     {
+      name: "Dấu Mưa",
+      singer: "Trung Quân",
+      path: "./path/daumua.mp3",
+      image: "./img/daumua.jpg",
+    },
+    {
       name: "What Lover Do",
       singer: "Maroon 5",
       path: "./path/whatloverdo.mp3",
       image: "./img/whatloverdo.jpg",
+    },
+    {
+      name: "Can't Take My Eye Off You",
+      singer: "Joseph Vincent",
+      path: "./path/cant.mp3",
+      image: "./img/cant.jpg",
+    },
+    {
+      name: "Bleeding Love",
+      singer: "Ni/Co",
+      path: "./path/bleeding.mp3",
+      image: "./img/bleeding.jpg",
+    },
+    {
+      name: "You Are My Sunshine",
+      singer: "Kina Grannis",
+      path: "./path/yams.mp3",
+      image: "./img/yams.jpg",
     },
     {
       name: "I Love You",
@@ -306,8 +330,8 @@ const app = {
 
     // Hiển thị trạng thái ban đầu của button repeat & random
     // Display the initial state of the repeat & random button
-    randomBtn.classList.toggle("active", this.isRandom);
-    repeatBtn.classList.toggle("active", this.isRepeat);
+    // randomBtn.classList.toggle("active", this.isRandom);
+    // repeatBtn.classList.toggle("active", this.isRepeat);
   },
 };
 

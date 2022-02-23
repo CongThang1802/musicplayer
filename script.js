@@ -4,7 +4,7 @@
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
-const PlAYER_STORAGE_KEY = "F8_PLAYER";
+const PlAYER_STORAGE_KEY = "CONGTHANG_PLAYER";
 
 const player = $(".player");
 const cd = $(".cd");
@@ -25,8 +25,7 @@ const app = {
   isRandom: false,
   isRepeat: false,
   config: {},
-  // (1/2) Uncomment the line below to use localStorage
-  // config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
+
   songs: [
     {
       name: "Nevada",
